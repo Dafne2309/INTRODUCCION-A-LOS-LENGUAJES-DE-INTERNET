@@ -17,4 +17,4 @@ Repositorio diseñado para **presentar proyectos y actividades** de la asignatur
 ---
 
 ## ✨ Autor
-**Dafne Julieth**  
+**Dafne Julieth Cortes Sarmiento**  
