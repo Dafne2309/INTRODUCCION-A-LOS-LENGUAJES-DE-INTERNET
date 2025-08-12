@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Banner Pruebas de Software II" width="800">
+  <img src="banner.png" alt="Banner Pruebas de Software II" width="400">
 </p>
 
 # 🎓 PRUEBAS DE SOFTWARE II
