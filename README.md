@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="banner.png" alt="Banner Pruebas de Software II" width="800">
-</p>
 
-
-
+# 📚✨ PRUEBAS DE SOFTWARE II
 Repositorio diseñado para **presentar proyectos y actividades** de la asignatura _Pruebas de Software II_.  
 
 ---
