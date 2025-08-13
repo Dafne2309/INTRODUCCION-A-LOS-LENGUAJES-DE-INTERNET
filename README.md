@@ -1,6 +1,6 @@
 
 # 📚✨ INTRODUCCION A LOS LENGUAJES DE INTERNET
-Repositorio diseñado para **presentar proyectos y actividades** de la asignatura _Pruebas de Software II_.  
+Repositorio diseñado para **presentar proyectos y actividades** de la asignatura _introduccion a los lenguajes de internet_.  
 
 ---
 
