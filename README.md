@@ -12,7 +12,8 @@ Repositorio diseñado para **presentar proyectos y actividades** de la asignatur
 ## 🛠 Herramientas (planeadas)
 - ☕ Java  
 - 🐙 GitHub  
-- 🧪 JUnit (posiblemente)
+- 🧪 JavaScript (posiblemente)
+  
 
 ---
 
