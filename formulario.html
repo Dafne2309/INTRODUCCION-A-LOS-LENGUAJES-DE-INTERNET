@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDA TU CITA MEDICA</title>
+    <link rel="stylesheet" href="diseño.css">
+
+
+</head>
+<body>
+
+     <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/3030/3030856.png" alt="Imagen calendario">
+    </div>
+    
+
+    <h1>Agendamiento de citas medicas</h1>
+    <p>Complete el siguiente formulario para reservar su cita medica</p>
+    
+    <form action="/procesar-cita" method="post">
+
+<label for="nombre">Nombre completo:</label>
+<input type="text" name="nombre" id="nombre" required><br><br>
+
+<label for="identificacion">Numero de identificacion:</label>
+<input type="text" name="identificacion" id="identificacion" required><br><br>
+
+<label for="correo_electronico">Correo Electronico:</label>
+<input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required><br><br>
+
+<label for="telefono">Telefono:</label>
+<input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}"placeholder="Ej:3000283719"required><br><br>
+
+<label for="especialidad">Especialidad medica:</label>
+<select name="especialidad" id="especialidad"required>
+<option value="">Selecciona una especialidad</option>
+<option value="medicina general">Medicina General</option>
+<option value="odontologia">Odontologia</option>
+<option value="laboratorios_clinicos">Laboratorios Clinicos</option>
+<option value="patologias">Patologias</option>
+<option value="imagenes-diagnosticas">Imagenes Diagnosticas</option>
+<option value="cardiologia">Cardiología</option>
+<option value="cirugia_general">Cirugia General</option>
+<option value="cirugia_plastica">Cirugia Plastica</option>
+<option value="dermatologia">Dermatologia</option>
+<option value="gastroenterologia">Gastroenterologia</option>
+<option value="ginecologia">Ginecologia</option>
+<option value="neurologia">Neurologia</option>
+<option value="nutricion">Nutricion</option>
+<option value="oftamologia">Oftamologia</option>
+<option value="psicologia">Psiocologia</option>
+<option value="psiquiatria">Psiquiatria</option>
+<option value="ortopedia">Ortopedia</option>
+</select><br><br>
+
+<label for="fecha">Fecha de la cita:</label>
+<input type="date" id="fecha" name="fecha" required><br><br>
+
+<label for="hora">Hora de la cita:</label>
+<input type="time" name="hora" id="hora" required><br><br>
+
+<p>Modalidad de la cita:</p>
+<label><input type="radio" name="tipo_cita" value="atencion_presencial" required>Atencion Presencial</label>
+<label><input type="radio" name="tipo_cita" value="atencion_videollamada" required>Atencion Videollamada</label><br><br>
+
+<p>¿Desea recibir un recordatorio?</p>
+<label><input type="checkbox" name="recordatorio" value="email">Correo Electronico</label>
+<label><input type="checkbox" name="recordatorio"value="sms">Mensaje de Texto</label><br><br><br>
+
+
+<label>
+    <input type="checkbox" name="autorizo_datos"required>
+    Autorizo el uso de mis datos personales para el agendamiento de la cita medica.
+</label><br><br>
+
+<button type="submit">Agendar Cita</button>
+<button type="reset">Limpiar formulario</button>
+
+    </form>
+</body>
+</html>
