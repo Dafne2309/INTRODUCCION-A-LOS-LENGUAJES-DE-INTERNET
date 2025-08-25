@@ -1,0 +1,78 @@
+.table {   
+    
+    border-collapse: collapse;     
+    margin: 20px; 
+    table-layout: fixed;
+    cursor: pointer;
+  
+}
+
+td{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    font-family:serif
+
+}
+
+.numero{
+    top:2px;
+    left:4px;
+    font-size: 11px;
+}
+
+.nombre{
+   font-size: 12px;
+}
+
+.simbolo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+td:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+.no-metal{
+    background-color: rgb(246, 124, 37);
+}
+
+.metal-alcalino{
+    background-color: rgb(37, 37, 116);
+}
+
+.metal-alcalinoterreo{
+   background-color:gold ;
+}
+
+.metal-transicion{
+    background-color: darkturquoise;
+}
+
+.otro-metal{
+    background-color: rgb(156, 2, 222);
+}
+
+.metaloide{
+    background-color: rgb(254, 7, 139);
+}
+
+.halogeno{
+    background-color: greenyellow;
+}
+
+.gas-noble{
+    background-color: darkgreen;
+}
+
+.lantanido{
+    background-color: darkslategray;
+}
+
+.actinido{
+    background-color: teal;
+}
