@@ -1,0 +1,49 @@
+/* Fondo de la página */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.logo img {
+  width: 120px; /* tamaño del logo */
+  margin: 10px auto; /* espacio alrededor */
+  display: block; /* asegura que se centre */
+}
+
+/* Título */
+h1 {
+  color: #2a4d69;
+}
+
+/* Estilos del formulario */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0px 0px 10px gray;
+}
+
+/* Inputs y select */
+input, select {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Botón */
+button {
+  background-color: #2a4d69;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b86b4;
+}
