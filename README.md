@@ -18,7 +18,7 @@ Aquí puedes ver cómo se ve el formulario:
 ---
 ## Vista previa de Pagina de Noticias
 <img width="1919" height="1024" alt="Captura de pantalla 2025-09-08 194044" src="https://github.com/user-attachments/assets/4672f878-bc1b-45d8-b3c0-5db40d1317ef" />
-
+---
 
 
 ---
