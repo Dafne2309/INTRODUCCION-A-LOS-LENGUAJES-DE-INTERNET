@@ -16,6 +16,9 @@ Aquí puedes ver cómo se ve el formulario:
 ## Vista previa de Tabla periodica
 <img width="1259" height="739" alt="Captura de pantalla 2025-08-25 154900" src="https://github.com/user-attachments/assets/efb5316b-4aea-4b56-8441-6eebc27d5061" />
 
+##Vista previa de Pagina de Noticias
+<img width="1919" height="1034" alt="Captura de pantalla 2025-09-08 193845" src="https://github.com/user-attachments/assets/dee85956-b16c-4fab-a73e-a22f36d7b52c" />
+
 
 ---
 ## 📂 Contenido del repositorio
