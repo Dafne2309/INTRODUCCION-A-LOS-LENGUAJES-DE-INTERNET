@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://img.freepik.com/fotos-premium/cielo-nocturno-estrellas-blancas-fondo-espacio_167650-2077.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header{
+    background-color: rgb(3, 3, 152);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Frijole',sans-serif;
+    
+}
+
+footer{
+    background-color: rgb(3, 3, 152);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a{
+    font-family: sans-serif;
+    color: gold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+
+}
+
+nav a{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 25px;
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+nav a:hover{
+    color: #04f7ff;
+    text-decoration: underline;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/* seccion de tabla */
+
+table{
+    font-size: 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    color: black;
+}
+
+th,td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(43, 1, 106);
+    color: #ffffff;
+}
+tr:nth-child(even){
+    background-color: #ccc0f4;
+}
+tr:hover{
+    background-color: #7b4986;
+}
+
+ /* seccion de cards */
+section{
+     display: flex;         
+    flex-wrap: wrap;       
+    gap: 20px;             
+    justify-content: center;
+}
+.card{
+   background-color: #ccc;   
+    border-radius: 10px;      
+    width: 280px;            
+    overflow: hidden;         
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h3{
+    font-family: 'Sonsie one',sans-serif;
+    margin:10px;
+    font-size: 18px;
+    color: rgb(43, 1, 106);
+}
+.card p{
+    margin: 10px;
+    font-size: 14px;
+    color: #555;
+}
+.cards-container{
+   display: grid;                       
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 15px;                           
+    justify-content: center;              
+
+}
