@@ -62,7 +62,7 @@ Este proyecto consiste en la creación de una tabla periódica interactiva utili
 
 Lo que hicimos:
 
-🔹Construimos la estructura de la tabla con etiquetas <table> y <td> en HTML.
+🔹 Construimos la estructura de la tabla con etiquetas en HTML.
 
 🔹Asignamos clases a cada elemento químico según su grupo (metales alcalinos, no metales, gases nobles, etc.).
 
