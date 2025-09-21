@@ -22,6 +22,7 @@ Estos proyectos buscan afianzar las bases en:
 ✔️ Interactividad básica con JavaScript.
 
 ---
+
 ## 📸 Vista previa formulario web
 Aquí puedes ver cómo se ve el formulario:
 
@@ -34,10 +35,15 @@ Este proyecto consiste en la creación de un formulario web básico para agendar
 El formulario permite al usuario:
 
 🔹Ingresar sus datos personales (nombre, identificación, correo y teléfono).
+
 🔹Seleccionar la especialidad médica.
+
 🔹Elegir la fecha y la hora de la cita.
+
 🔹Escoger la modalidad de atención (presencial o por videollamada).
+
 🔹Solicitar recordatorios por correo electrónico o SMS.
+
 🔹Aceptar el uso de datos personales.
 
 Se usó HTML5 para la estructura y CSS en un archivo externo para el diseño, aplicando:
@@ -57,10 +63,15 @@ Este proyecto consiste en la creación de una tabla periódica interactiva utili
 Lo que hicimos:
 
 🔹Construimos la estructura de la tabla con etiquetas <table> y <td> en HTML.
+
 🔹Asignamos clases a cada elemento químico según su grupo (metales alcalinos, no metales, gases nobles, etc.).
+
 🔹Creamos un archivo CSS para dar color a cada grupo de elementos.
+
 🔹Centramos el número atómico, el símbolo y el nombre dentro de cada celda.
+
 🔹Añadimos la pseudo-clase :hover para que, al pasar el puntero sobre un elemento, cambie el color y el cursor se transforme en una mano.
+
 🔹Usamos Live Server en Visual Studio Code para visualizar los cambios en tiempo real.
 
 De esta manera logramos una tabla periódica clara, colorida y fácil de entender, que sirve como ejercicio práctico para aprender a usar HTML y CSS.
@@ -77,8 +88,11 @@ Este proyecto es una página web estática hecha con HTML5 y CSS, donde se prese
 La estructura incluye:
 
 🔹Un encabezado con título y menú de navegación.
+
 🔹Una tabla que organiza noticias por título, fecha y fuente.
+
 🔹Una galería de tarjetas con imágenes, descripciones y títulos de cada noticia.
+
 🔹Un footer con créditos y enlaces a redes sociales.
 
 El objetivo fue practicar la organización semántica en HTML, el uso de tablas y secciones, y la integración de Google Fonts para personalizar la apariencia del sitio.
@@ -93,8 +107,11 @@ El objetivo fue practicar la organización semántica en HTML, el uso de tablas 
 Este es un proyecto sencillo hecho con HTML, CSS y JavaScript, donde se implementa una ventana modal interactiva.
 
 🔹 Al hacer clic en el botón, se abre un modal con un fondo oscuro que bloquea la pantalla.
+
 🔹 Dentro del modal aparece un mensaje sorpresa escogido de manera aleatoria.
+
 🔹 Los mensajes son frases divertidas y dichos muy usados en Colombia 🇨🇴.
+
 🔹 Se puede cerrar el modal con el botón Cerrar, dando clic fuera del cuadro, o con la tecla Escape.
 
 El objetivo de este proyecto es practicar la manipulación del DOM, eventos en JavaScript y diseño responsivo con CSS, pero de una manera creativa y entretenida.
