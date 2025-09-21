@@ -28,6 +28,21 @@ Aquí puedes ver cómo se ve el formulario:
 
 ---
 
+##Vista Previa de Ventana Modal
+<img width="1919" height="916" alt="Captura de pantalla 2025-09-21 182015" src="https://github.com/user-attachments/assets/a4b1c5f2-fc0b-4172-8b6e-4f92508c5a48" />
+---
+🎉 Ventana Modal Divertida
+
+Este es un proyecto sencillo hecho con HTML, CSS y JavaScript, donde se implementa una ventana modal interactiva.
+
+🔹 Al hacer clic en el botón, se abre un modal con un fondo oscuro que bloquea la pantalla.
+🔹 Dentro del modal aparece un mensaje sorpresa escogido de manera aleatoria.
+🔹 Los mensajes son frases divertidas y dichos muy usados en Colombia 🇨🇴.
+🔹 Se puede cerrar el modal con el botón Cerrar, dando clic fuera del cuadro, o con la tecla Escape.
+
+El objetivo de este proyecto es practicar la manipulación del DOM, eventos en JavaScript y diseño responsivo con CSS, pero de una manera creativa y entretenida.
+
+
 
 ---
 ## 📂 Contenido del repositorio
