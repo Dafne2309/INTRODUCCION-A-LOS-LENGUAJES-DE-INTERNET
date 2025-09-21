@@ -1,0 +1,36 @@
+.overlay{
+    position:fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,0.7);
+    z-index: 1000;
+}
+
+.modal{
+    width: 90%;
+    max-width: 480px;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.overlay.visible{
+    display: flex;
+}
+
+button:hover{
+    background-color: #38f6a4;
+}
+.modal button{
+    margin-top: 1rem;
+}
+@media(min-width:600px){
+    .modal{padding: 2rem;}
+}
+#mensajeSorpresa{
+    font-family: 'Honk',system-ui;
+    font-size: 1.7rem;
+}
